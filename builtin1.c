@@ -94,7 +94,7 @@ int _myalias(info_t *info)
 
 	if (info->argc == 1)
 	{
-		node = info->alias;
+		 = info->alias;
 		while (node)
 		{
 			print_alias(node);
